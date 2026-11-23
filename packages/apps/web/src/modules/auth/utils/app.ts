@@ -13,6 +13,13 @@ export const authHref = (path: string, { app, next }: Pick<AuthFlow, 'app' | 'ne
     return `${path}?${params}`;
 };
 
+export const appSignUpUrl = (signUpUrl: string, next: string | null, email: string): string => {
+    const url = new URL(signUpUrl);
+    if(email) url.searchParams.set('email', email);
+    if(next) url.searchParams.set('next', next);
+    return url.toString();
+};
+
 export const appCallbackUrl = (app: InstanceApp, params: Record<string, string>): string => {
     const url = new URL(`${app.url}/auth/callback`);
     for(const [key, value] of Object.entries(params)) url.searchParams.set(key, value);

@@ -27,6 +27,10 @@ export interface SignUpInput{
     username: string;
     /** @minLength 8 */
     password: string;
+    /** @maxLength 160 */
+    bio?: string;
+    /** @pattern ^\+[1-9][0-9]{6,14}$ */
+    phone?: string;
     /** @maxLength 64 */
     source?: string;
     /** @maxLength 64 */

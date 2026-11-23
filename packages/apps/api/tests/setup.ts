@@ -10,7 +10,8 @@ Object.assign(process.env, {
     APPS: JSON.stringify([
         {
             id: 'web',
-            url: 'https://app.example.test'
+            url: 'https://app.example.test',
+            signUpUrl: 'https://app.example.test/welcome'
         },
         {
             id: 'console',

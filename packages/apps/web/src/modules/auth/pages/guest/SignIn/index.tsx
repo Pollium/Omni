@@ -13,7 +13,7 @@ import { useForm } from '@omni/ui/hooks/forms/use-form';
 import { beginHandoff } from '@omni/ui/utils/session/handoff';
 import { authApi } from '@/modules/auth/api/api';
 import { useAuthFlow } from '@/modules/auth/hooks/use-auth-flow';
-import { authHref, finishAuth } from '@/modules/auth/utils/app';
+import { appSignUpUrl, authHref, finishAuth } from '@/modules/auth/utils/app';
 import { authErrorMessage } from '@/modules/auth/utils/error-messages';
 import { useLingui } from '@lingui/react/macro';
 import { msg } from '@lingui/core/macro';
@@ -47,6 +47,11 @@ const SignIn = () => {
                 const { exists } = await authApi.checkEmail({ email: values.email });
                 if(exists){
                     setStep('password');
+                    return;
+                }
+
+                if(flow.app.signUpUrl){
+                    window.location.assign(appSignUpUrl(flow.app.signUpUrl, flow.next, values.email));
                     return;
                 }
 

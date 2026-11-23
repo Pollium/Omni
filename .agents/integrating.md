@@ -17,6 +17,11 @@ TERMS_URL=https://acme.com/terms            # both or neither: the line under th
 PRIVACY_URL=https://acme.com/privacy
 ```
 
+An app that runs its own sign-up adds `"signUpUrl":"https://app.acme.com/welcome"`. Omni then sends an
+email it doesn't know to `signUpUrl?email=…&next=…` instead of its own `/sign-up`, and the app creates
+the account with `POST ${OMNI_API}/auth/sign-up` (`fullName`, `email`, `username`, `password`, and
+optionally `bio`, `phone`, `source`, `campaign`). The answer is `{ token, user }`; no handoff is needed.
+
 OAuth: set `GOOGLE_CLIENT_ID/SECRET`, `GITHUB_CLIENT_ID/SECRET`, `MICROSOFT_CLIENT_ID/SECRET`
 (+ `MICROSOFT_TENANT`). A provider shows on the sign-in page only with both values. Its redirect URL is
 `${WEB_URL}/auth/oauth/<google|github|microsoft>/callback`.

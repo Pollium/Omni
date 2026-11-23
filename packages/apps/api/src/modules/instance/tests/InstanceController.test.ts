@@ -16,7 +16,8 @@ describe('InstanceController', () => {
             apps: [
                 {
                     id: 'web',
-                    url: 'https://app.example.test'
+                    url: 'https://app.example.test',
+                    signUpUrl: 'https://app.example.test/welcome'
                 },
                 {
                     id: 'console',

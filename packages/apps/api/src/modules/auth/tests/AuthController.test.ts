@@ -84,6 +84,22 @@ describe('AuthController', () => {
         expect(avatar.contentType).toBe('image/svg+xml');
     });
 
+    it('keeps the bio and phone an app collected before creating the account', async () => {
+        const res = await request(ctx.app, authRoutes.signUp, {
+            body: {
+                ...SIGN_UP,
+                bio: 'Learning Rust',
+                phone: '+56912345678'
+            }
+        });
+
+        expect(res.status).toBe(201);
+        expect(res.data().user).toMatchObject({
+            bio: 'Learning Rust',
+            phone: '+56912345678'
+        });
+    });
+
     it('keeps the source and campaign a sign-up came from', async () => {
         const res = await request(ctx.app, authRoutes.signUp, {
             body: {
