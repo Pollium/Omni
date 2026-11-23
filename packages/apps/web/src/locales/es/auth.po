@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-11-23 16:37-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: es\n"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:58
+msgid "A handle others can find you by"
+msgstr "Un identificador para que otros te encuentren"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:49
+msgid "Already have an account? <0>Sign in</0>"
+msgstr "¿Ya tienes una cuenta? <0>Inicia sesión</0>"
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:48
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:58
+msgid "Back to sign in"
+msgstr "Volver a iniciar sesión"
+
+#: src/modules/auth/components/TermsNotice/index.tsx:15
+msgid "By using {name}, you agree to our <0>Terms of Service</0> & <1>Privacy Policy</1>."
+msgstr "Al usar {name}, aceptas nuestros <0>Términos de servicio</0> y la <1>Política de privacidad</1>."
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:44
+msgid "Check your email"
+msgstr "Revisa tu correo"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:64
+msgid "Choose a new password"
+msgstr "Elige una contraseña nueva"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:69
+msgid "Completing sign-in…"
+msgstr "Completando el inicio de sesión…"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:88
+msgid "Continue"
+msgstr "Continuar"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:75
+msgid "Continue with GitHub"
+msgstr "Continuar con GitHub"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:74
+msgid "Continue with Google"
+msgstr "Continuar con Google"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:76
+msgid "Continue with Microsoft"
+msgstr "Continuar con Microsoft"
+
+#: src/modules/auth/pages/public/Continue/index.tsx:43
+msgid "Continuing"
+msgstr "Continuando"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:30
+msgid "Could not create the account. Try again."
+msgstr "No se pudo crear la cuenta. Inténtalo de nuevo."
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:33
+msgid "Could not reset the password."
+msgstr "No se pudo restablecer la contraseña."
+
+#: src/modules/auth/components/SignInPassword/index.tsx:18
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:30
+msgid "Could not send the reset link."
+msgstr "No se pudo enviar el enlace de restablecimiento."
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:39
+msgid "Could not sign in. Try again."
+msgstr "No se pudo iniciar sesión. Inténtalo de nuevo."
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:69
+msgid "Create account"
+msgstr "Crear cuenta"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:48
+msgid "Create your {name} account"
+msgstr "Crea tu cuenta de {name}"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:64
+msgid "Eight characters or more"
+msgstr "Ocho caracteres o más"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:65
+msgid "Eight characters or more. Saving it signs you out on your other devices."
+msgstr "Ocho caracteres o más. Al guardarla se cierra la sesión en tus otros dispositivos."
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:61
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:61
+#: src/modules/auth/pages/guest/SignIn/index.tsx:81
+#: src/modules/auth/pages/guest/SignIn/index.tsx:81
+#: src/modules/auth/pages/guest/SignUp/index.tsx:56
+#: src/modules/auth/pages/guest/SignUp/index.tsx:56
+msgid "Email"
+msgstr "Correo"
+
+#: src/modules/auth/components/SignInPassword/index.tsx:47
+msgid "Forgot it?"
+msgstr "¿La olvidaste?"
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:45
+msgid "If <0>{sentTo}</0> has a {name} account, a link to choose a new password is on its way."
+msgstr "Si <0>{sentTo}</0> tiene una cuenta en {name}, te llegará un enlace para elegir una contraseña nueva."
+
+#: src/modules/auth/components/Pending/index.tsx:7
+msgid "Loading"
+msgstr "Cargando"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:27
+msgid "Missing authorization code."
+msgstr "Falta el código de autorización."
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:57
+msgid "Name"
+msgstr "Nombre"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:72
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:74
+msgid "New password"
+msgstr "Nueva contraseña"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:72
+msgid "or"
+msgstr "o"
+
+#: src/modules/auth/components/SignInPassword/index.tsx:39
+#: src/modules/auth/components/SignInPassword/index.tsx:51
+#: src/modules/auth/pages/guest/SignUp/index.tsx:62
+msgid "Password"
+msgstr "Contraseña"
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:69
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:84
+msgid "Remembered your password? <0>Sign in</0>"
+msgstr "¿Recordaste tu contraseña? <0>Inicia sesión</0>"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:56
+msgid "Request a new link"
+msgstr "Pedir un enlace nuevo"
+
+#: src/modules/auth/components/SignInPassword/index.tsx:47
+msgid "Resend"
+msgstr "Reenviar"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:53
+msgid "Reset links expire and work only once."
+msgstr "Los enlaces vencen y sirven una sola vez."
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:56
+msgid "Reset your password"
+msgstr "Restablece tu contraseña"
+
+#: src/modules/auth/utils/error-messages.ts:11
+msgid "Review the form: some fields are missing or invalid."
+msgstr "Revisa el formulario: faltan campos o no son válidos."
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:79
+msgid "Save and sign in"
+msgstr "Guardar y entrar"
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:64
+msgid "Send link"
+msgstr "Enviar enlace"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:88
+msgid "Sign in"
+msgstr "Iniciar sesión"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:55
+msgid "Sign-in failed"
+msgstr "Falló el inicio de sesión"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:44
+msgid "Sign-in failed."
+msgstr "Falló el inicio de sesión."
+
+#: src/modules/auth/pages/public/SignOut/index.tsx:16
+msgid "Signing out"
+msgstr "Cerrando sesión"
+
+#: src/modules/auth/components/Unavailable/index.tsx:11
+msgid "Something went wrong"
+msgstr "Algo salió mal"
+
+#: src/modules/auth/utils/error-messages.ts:9
+msgid "That username is taken. Try another one."
+msgstr "Ese nombre de usuario ya está en uso. Prueba otro."
+
+#: src/modules/auth/utils/error-messages.ts:8
+msgid "This email is already registered."
+msgstr "Este correo ya está registrado."
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:52
+msgid "This link no longer works"
+msgstr "Este enlace ya no sirve"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:33
+msgid "This sign-in was not started in this tab."
+msgstr "Este inicio de sesión no se empezó en esta pestaña."
+
+#: src/modules/auth/utils/error-messages.ts:10
+msgid "Too many attempts. Wait a minute and try again."
+msgstr "Demasiados intentos. Espera un minuto e inténtalo de nuevo."
+
+#: src/modules/auth/components/Unavailable/index.tsx:15
+msgid "Try again"
+msgstr "Intentar de nuevo"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:58
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: src/modules/auth/components/Unavailable/index.tsx:12
+msgid "We couldn't load this page. Try again in a moment."
+msgstr "No pudimos cargar esta página. Inténtalo de nuevo en un momento."
+
+#: src/modules/auth/components/SignInPassword/index.tsx:58
+msgid "We sent a link to <0>{sentTo}</0> to choose a new password."
+msgstr "Te enviamos un enlace a <0>{sentTo}</0> para elegir una contraseña nueva."
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:57
+msgid "We will email you a link to choose a new one."
+msgstr "Te enviaremos un enlace para elegir una nueva."
+
+#: src/modules/auth/utils/error-messages.ts:7
+msgid "Wrong email or password."
+msgstr "Correo o contraseña incorrectos."
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:57
+msgid "Your name"
+msgstr "Tu nombre"

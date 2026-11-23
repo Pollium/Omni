@@ -1,0 +1,235 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-11-23 16:37-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:58
+msgid "A handle others can find you by"
+msgstr "A handle others can find you by"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:49
+msgid "Already have an account? <0>Sign in</0>"
+msgstr "Already have an account? <0>Sign in</0>"
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:48
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:58
+msgid "Back to sign in"
+msgstr "Back to sign in"
+
+#: src/modules/auth/components/TermsNotice/index.tsx:15
+msgid "By using {name}, you agree to our <0>Terms of Service</0> & <1>Privacy Policy</1>."
+msgstr "By using {name}, you agree to our <0>Terms of Service</0> & <1>Privacy Policy</1>."
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:44
+msgid "Check your email"
+msgstr "Check your email"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:64
+msgid "Choose a new password"
+msgstr "Choose a new password"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:69
+msgid "Completing sign-in…"
+msgstr "Completing sign-in…"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:88
+msgid "Continue"
+msgstr "Continue"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:75
+msgid "Continue with GitHub"
+msgstr "Continue with GitHub"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:74
+msgid "Continue with Google"
+msgstr "Continue with Google"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:76
+msgid "Continue with Microsoft"
+msgstr "Continue with Microsoft"
+
+#: src/modules/auth/pages/public/Continue/index.tsx:43
+msgid "Continuing"
+msgstr "Continuing"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:30
+msgid "Could not create the account. Try again."
+msgstr "Could not create the account. Try again."
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:33
+msgid "Could not reset the password."
+msgstr "Could not reset the password."
+
+#: src/modules/auth/components/SignInPassword/index.tsx:18
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:30
+msgid "Could not send the reset link."
+msgstr "Could not send the reset link."
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:39
+msgid "Could not sign in. Try again."
+msgstr "Could not sign in. Try again."
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:69
+msgid "Create account"
+msgstr "Create account"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:48
+msgid "Create your {name} account"
+msgstr "Create your {name} account"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:64
+msgid "Eight characters or more"
+msgstr "Eight characters or more"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:65
+msgid "Eight characters or more. Saving it signs you out on your other devices."
+msgstr "Eight characters or more. Saving it signs you out on your other devices."
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:61
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:61
+#: src/modules/auth/pages/guest/SignIn/index.tsx:81
+#: src/modules/auth/pages/guest/SignIn/index.tsx:81
+#: src/modules/auth/pages/guest/SignUp/index.tsx:56
+#: src/modules/auth/pages/guest/SignUp/index.tsx:56
+msgid "Email"
+msgstr "Email"
+
+#: src/modules/auth/components/SignInPassword/index.tsx:47
+msgid "Forgot it?"
+msgstr "Forgot it?"
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:45
+msgid "If <0>{sentTo}</0> has a {name} account, a link to choose a new password is on its way."
+msgstr "If <0>{sentTo}</0> has a {name} account, a link to choose a new password is on its way."
+
+#: src/modules/auth/components/Pending/index.tsx:7
+msgid "Loading"
+msgstr "Loading"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:27
+msgid "Missing authorization code."
+msgstr "Missing authorization code."
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:57
+msgid "Name"
+msgstr "Name"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:72
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:74
+msgid "New password"
+msgstr "New password"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:72
+msgid "or"
+msgstr "or"
+
+#: src/modules/auth/components/SignInPassword/index.tsx:39
+#: src/modules/auth/components/SignInPassword/index.tsx:51
+#: src/modules/auth/pages/guest/SignUp/index.tsx:62
+msgid "Password"
+msgstr "Password"
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:69
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:84
+msgid "Remembered your password? <0>Sign in</0>"
+msgstr "Remembered your password? <0>Sign in</0>"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:56
+msgid "Request a new link"
+msgstr "Request a new link"
+
+#: src/modules/auth/components/SignInPassword/index.tsx:47
+msgid "Resend"
+msgstr "Resend"
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:53
+msgid "Reset links expire and work only once."
+msgstr "Reset links expire and work only once."
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:56
+msgid "Reset your password"
+msgstr "Reset your password"
+
+#: src/modules/auth/utils/error-messages.ts:11
+msgid "Review the form: some fields are missing or invalid."
+msgstr "Review the form: some fields are missing or invalid."
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:79
+msgid "Save and sign in"
+msgstr "Save and sign in"
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:64
+msgid "Send link"
+msgstr "Send link"
+
+#: src/modules/auth/pages/guest/SignIn/index.tsx:88
+msgid "Sign in"
+msgstr "Sign in"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:55
+msgid "Sign-in failed"
+msgstr "Sign-in failed"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:44
+msgid "Sign-in failed."
+msgstr "Sign-in failed."
+
+#: src/modules/auth/pages/public/SignOut/index.tsx:16
+msgid "Signing out"
+msgstr "Signing out"
+
+#: src/modules/auth/components/Unavailable/index.tsx:11
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+#: src/modules/auth/utils/error-messages.ts:9
+msgid "That username is taken. Try another one."
+msgstr "That username is taken. Try another one."
+
+#: src/modules/auth/utils/error-messages.ts:8
+msgid "This email is already registered."
+msgstr "This email is already registered."
+
+#: src/modules/auth/pages/guest/ResetPassword/index.tsx:52
+msgid "This link no longer works"
+msgstr "This link no longer works"
+
+#: src/modules/auth/pages/public/Auth/Callback/index.tsx:33
+msgid "This sign-in was not started in this tab."
+msgstr "This sign-in was not started in this tab."
+
+#: src/modules/auth/utils/error-messages.ts:10
+msgid "Too many attempts. Wait a minute and try again."
+msgstr "Too many attempts. Wait a minute and try again."
+
+#: src/modules/auth/components/Unavailable/index.tsx:15
+msgid "Try again"
+msgstr "Try again"
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:58
+msgid "Username"
+msgstr "Username"
+
+#: src/modules/auth/components/Unavailable/index.tsx:12
+msgid "We couldn't load this page. Try again in a moment."
+msgstr "We couldn't load this page. Try again in a moment."
+
+#: src/modules/auth/components/SignInPassword/index.tsx:58
+msgid "We sent a link to <0>{sentTo}</0> to choose a new password."
+msgstr "We sent a link to <0>{sentTo}</0> to choose a new password."
+
+#: src/modules/auth/pages/guest/ForgotPassword/index.tsx:57
+msgid "We will email you a link to choose a new one."
+msgstr "We will email you a link to choose a new one."
+
+#: src/modules/auth/utils/error-messages.ts:7
+msgid "Wrong email or password."
+msgstr "Wrong email or password."
+
+#: src/modules/auth/pages/guest/SignUp/index.tsx:57
+msgid "Your name"
+msgstr "Your name"
