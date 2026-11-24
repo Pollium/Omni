@@ -13,6 +13,7 @@ export default class InstanceController extends BaseController{
         return {
             name: config.name,
             apps: [...config.apps],
+            console: config.console.app,
             providers: configuredProviders(),
             termsUrl: config.termsUrl,
             privacyUrl: config.privacyUrl

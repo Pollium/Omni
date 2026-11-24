@@ -127,6 +127,12 @@ describe('OAuthController', () => {
         expect(location.searchParams.get('app')).toBe('console');
     });
 
+    it('returns a sign-in started from Omni\'s own console to it', async () => {
+        const location = await roundTrip({ app: config.console.app.id });
+
+        expect(location.searchParams.get('app')).toBe('omni');
+    });
+
     it.each([
         ['an unknown app', { app: 'elsewhere' }],
         ['no app', {}]

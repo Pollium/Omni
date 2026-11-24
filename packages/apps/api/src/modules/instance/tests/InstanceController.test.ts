@@ -24,6 +24,10 @@ describe('InstanceController', () => {
                     url: 'https://console.example.test'
                 }
             ],
+            console: {
+                id: 'omni',
+                url: 'https://id.example.test/admin'
+            },
             providers: ['google', 'microsoft'],
             termsUrl: 'https://example.test/terms',
             privacyUrl: 'https://example.test/privacy'

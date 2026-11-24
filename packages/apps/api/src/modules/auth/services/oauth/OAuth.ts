@@ -60,7 +60,7 @@ export default class OAuthService{
     }
 
     #appOf(value: string | undefined): string{
-        const app = config.apps.find((candidate) => candidate.id === value) ?? config.home;
+        const app = [...config.apps, config.console.app].find((candidate) => candidate.id === value) ?? config.home;
 
         return app.id;
     }
