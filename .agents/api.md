@@ -13,6 +13,7 @@
 | `teams` | teams and team memberships, the personal team made at sign-up |
 | `invitations` | team invitations by email, asking the membership hook before a seat is taken |
 | `directory` | the `x-omni-key` routes the product's backend reads and writes |
+| `console` | `/console/*`, the console's api: a signed-in session holding `config.console.role` (`admin`, checked by `AdminRoute`), never the service key. Users, roles, the default organization, the apps and the settings, all read-only except roles, reset links, signing out and deleting accounts |
 | `mail` | `Mail.send()` → `MailQueue` (BullMQ, retried) → SMTP; es/en copy in `copy.ts`, the HTML in `services/Layout.ts` |
 | `webhooks` | `Webhooks.publish(type, payload)` → `DeliveryQueue` → signed POST to `WEBHOOK_URL`; `MembershipHook`; `Signature` |
 | `instance` | `GET /instance`, what the web needs to brand itself |
@@ -23,6 +24,10 @@
 - Anything a product should hear about goes through `Webhooks.publish`, after the change is saved.
   Don't use `eventBus` for it: it is in-process, and a product lives elsewhere.
 - Revoking sessions is `SessionRevocation.revoke(userId)`: it writes the cutoff and tells the product.
+- The console never edits env-backed settings (apps, providers, mail). It shows them, with the secrets
+  left out: the service key shows its last four characters, a provider only its client id.
+- `DeliveryQueue` keeps the last `config.webhooks.keepDelivered` delivered jobs in Redis, and every failed
+  one, so the console can list them with `BaseQueue.jobs()` and `count()`. There is no delivery table.
 - Every mail has Spanish and English copy in `mail/copy.ts`, takes the language from the request, and
   says the product's `NAME`, never a hard-coded one.
 - Nothing product-specific in code. If a product needs a behaviour, it becomes config, a role, a

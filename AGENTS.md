@@ -7,8 +7,8 @@ product it serves; the name, the apps, the providers and the mail come from env.
 
 | Package | What it is | Port |
 |---|---|---|
-| `packages/apps/api` (`@omni/api`) | the only backend: auth, users and roles, organizations, teams, invitations, the service-key directory, avatars, mail, signed webhooks, `/instance`, `/types` | 3001 |
-| `packages/apps/web` (`@omni/web`) | the sign-in site (React + Vite + HeroUI + lingui es/en): sign-in, sign-up, forgot/reset password, `/continue`, the OAuth return, sign-out | 5176 (https) |
+| `packages/apps/api` (`@omni/api`) | the only backend: auth, users and roles, organizations, teams, invitations, the service-key directory, the console's `/console/*`, avatars, mail, signed webhooks, `/instance`, `/types` | 3001 |
+| `packages/apps/web` (`@omni/web`) | the sign-in site (React + Vite + HeroUI + lingui es/en): sign-in, sign-up, forgot/reset password, `/continue`, the OAuth return, sign-out; and the console at `/admin` | 5176 (https) |
 | `packages/shared/readable` (`@omni/readable`) | the HTTP framework: `Application`, module discovery, decorators, errors, `BaseModel`, JWT and passwords, session cutoffs, BullMQ queues | — |
 | `packages/shared/contracts` (`@omni/contracts`) | every wire type, route table and error table, one folder per domain; the api serves them at `/types` | — |
 | `packages/shared/ui` (`@omni/ui`) | the web's plumbing and components: `call`, forms, session store, PKCE handoff, AuthShell | — |
@@ -37,7 +37,9 @@ api ──signed POST──▶ MEMBERSHIP_HOOK_URL (may this org take one more m
   `omni-signature: t=<unix>,v1=<hex hmac-sha256(SERVICE_KEY, "<t>.<body>")>`; non-2xx answers are retried
   with backoff. Deliveries can repeat, so dedupe on `id`.
 - Roles are free strings (`^[a-z][a-z0-9_-]{0,31}$`) the product grants over the directory; Omni gives
-  them no meaning.
+  them no meaning, except `admin`, which opens Omni's console.
+- The console lives at `${WEB_URL}/admin`. It signs in through the same pages as an app whose id is
+  `omni` (`/sign-in?app=omni`), which is why no entry of `APPS` may use that id.
 
 The full protocol, with copyable snippets, is in [.agents/integrating.md](.agents/integrating.md).
 
