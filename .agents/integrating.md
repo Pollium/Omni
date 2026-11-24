@@ -17,6 +17,8 @@ TERMS_URL=https://acme.com/terms            # both or neither: the line under th
 PRIVACY_URL=https://acme.com/privacy
 ```
 
+`omni` is not a valid app id: it is Omni's own console at `${WEB_URL}/admin`, open to the `admin` role.
+
 An app that runs its own sign-up adds `"signUpUrl":"https://app.acme.com/welcome"`. Omni then sends an
 email it doesn't know to `signUpUrl?email=…&next=…` instead of its own `/sign-up`, and the app creates
 the account with `POST ${OMNI_API}/auth/sign-up` (`fullName`, `email`, `username`, `password`, and
