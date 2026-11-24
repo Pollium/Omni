@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-11-24 19:34-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: en\n"
+
+#. placeholder {0}: data.verified
+#: src/modules/console/pages/admin/Admin/index.tsx:71
+msgid "{0, plural, one {# account} other {# accounts}}"
+msgstr "{0, plural, one {# account} other {# accounts}}"
+
+#. placeholder {0}: data.invitationTtlHours / HOURS_PER_DAY
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:50
+msgid "{0, plural, one {# day} other {# days}}"
+msgstr "{0, plural, one {# day} other {# days}}"
+
+#. placeholder {0}: data.events.length
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:42
+msgid "{0, plural, one {# event} other {# events}}"
+msgstr "{0, plural, one {# event} other {# events}}"
+
+#. placeholder {0}: data.expiredInvitations
+#: src/modules/console/pages/admin/Admin/index.tsx:72
+msgid "{0, plural, one {# expired} other {# expired}}"
+msgstr "{0, plural, one {# expired} other {# expired}}"
+
+#. placeholder {0}: data.invitationTtlHours
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:51
+msgid "{0, plural, one {# hour} other {# hours}}"
+msgstr "{0, plural, one {# hour} other {# hours}}"
+
+#. placeholder {0}: team.members
+#: src/modules/console/components/UserTeams/index.tsx:26
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:35
+msgid "{0, plural, one {# person} other {# people}}"
+msgstr "{0, plural, one {# person} other {# people}}"
+
+#. placeholder {0}: delivery.attempts
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:66
+msgid "{0, plural, one {# try so far} other {# tries so far}}"
+msgstr "{0, plural, one {# try so far} other {# tries so far}}"
+
+#. placeholder {0}: count(now)
+#: src/modules/console/pages/admin/Admin/index.tsx:79
+msgid "{0} in total"
+msgstr "{0} in total"
+
+#. placeholder {0}: user.email
+#: src/modules/console/components/PersonMenu/index.tsx:89
+msgid "{0} loses their account, their teams and their sessions in every app. The apps hear about it. This can't be undone."
+msgstr "{0} loses their account, their teams and their sessions in every app. The apps hear about it. This can't be undone."
+
+#. placeholder {0}: user.fullName
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:63
+msgid "{0} now holds {role}"
+msgstr "{0} now holds {role}"
+
+#. placeholder {0}: count(recent[hover].count)
+#. placeholder {1}: shortDate(recent[hover].date)
+#: src/modules/console/pages/admin/Admin/index.tsx:79
+msgid "{0} on {1}"
+msgstr "{0} on {1}"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:70
+msgid "{change} on the {days} days before"
+msgstr "{change} on the {days} days before"
+
+#. placeholder {0}: count(now)
+#: src/modules/console/pages/admin/Admin/index.tsx:69
+msgid "+{0} in {days} days"
+msgstr "+{0} in {days} days"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:55
+msgid "120 days"
+msgstr "120 days"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:54
+msgid "30 days"
+msgstr "30 days"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:53
+msgid "7 days"
+msgstr "7 days"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:55
+msgid "A provider shows on the sign-in page once it has its client id and secret."
+msgstr "A provider shows on the sign-in page once it has its client id and secret."
+
+#: src/modules/console/utils/console-error.ts:9
+msgid "A role is lowercase letters, numbers, dashes or underscores."
+msgstr "A role is lowercase letters, numbers, dashes or underscores."
+
+#: src/modules/console/hooks/use-places.ts:21
+msgid "Access"
+msgstr "Access"
+
+#: src/modules/console/components/Peek/index.tsx:46
+msgid "Account"
+msgstr "Account"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:69
+msgid "Accounts"
+msgstr "Accounts"
+
+#: src/modules/console/components/CommandMenu/index.tsx:55
+#: src/modules/console/components/PersonMenu/index.tsx:58
+#: src/modules/console/components/PersonMenu/index.tsx:62
+msgid "Actions"
+msgstr "Actions"
+
+#: src/modules/console/components/Activity/index.tsx:41
+msgid "Activity"
+msgstr "Activity"
+
+#: src/modules/console/components/UserTeams/index.tsx:11
+msgid "Admin"
+msgstr "Admin"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:62
+msgid "All"
+msgstr "All"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:66
+msgid "Always"
+msgstr "Always"
+
+#. placeholder {0}: count(entry.count - entry.holders.length)
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:86
+msgid "And {0} more"
+msgstr "And {0} more"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:158
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:160
+msgid "Anything"
+msgstr "Anything"
+
+#: src/modules/console/hooks/use-places.ts:24
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:27
+#: src/modules/console/pages/admin/Admin/index.tsx:125
+msgid "Apps"
+msgstr "Apps"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:45
+msgid "Asked before an invitation is accepted"
+msgstr "Asked before an invitation is accepted"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:40
+msgid "Backend"
+msgstr "Backend"
+
+#: src/modules/console/components/Properties/index.tsx:54
+msgid "Came from"
+msgstr "Came from"
+
+#: src/modules/console/components/Properties/index.tsx:55
+msgid "Campaign"
+msgstr "Campaign"
+
+#: src/modules/console/components/PersonMenu/index.tsx:92
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/modules/console/components/Dialog/index.tsx:50
+#: src/modules/console/components/Peek/index.tsx:52
+msgid "Close"
+msgstr "Close"
+
+#: src/modules/console/components/PersonMenu/index.tsx:51
+msgid "Copied the ID"
+msgstr "Copied the ID"
+
+#: src/modules/console/components/PersonMenu/index.tsx:71
+#: src/modules/console/components/PersonMenu/index.tsx:73
+msgid "Copy the ID"
+msgstr "Copy the ID"
+
+#: src/modules/console/components/Activity/index.tsx:22
+msgid "Created an account"
+msgstr "Created an account"
+
+#: src/modules/console/components/Activity/index.tsx:24
+msgid "Created an account with <0>{method}</0>"
+msgstr "Created an account with <0>{method}</0>"
+
+#: src/modules/console/components/Activity/index.tsx:25
+msgid "Created an account with <0>{method}</0> from {source}"
+msgstr "Created an account with <0>{method}</0> from {source}"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:183
+msgid "Day joined"
+msgstr "Day joined"
+
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:66
+msgid "Default"
+msgstr "Default"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:47
+msgid "Default organization"
+msgstr "Default organization"
+
+#. placeholder {0}: user.fullName
+#: src/modules/console/components/PersonMenu/index.tsx:87
+msgid "Delete {0}'s account?"
+msgstr "Delete {0}'s account?"
+
+#: src/modules/console/components/PersonMenu/index.tsx:77
+#: src/modules/console/components/PersonMenu/index.tsx:79
+#: src/modules/console/components/PersonMenu/index.tsx:86
+#: src/modules/console/components/PersonMenu/index.tsx:94
+msgid "Delete account"
+msgstr "Delete account"
+
+#. placeholder {0}: user.email
+#: src/modules/console/components/PersonMenu/index.tsx:38
+msgid "Deleted {0}"
+msgstr "Deleted {0}"
+
+#: src/modules/console/components/DeliveryState/index.tsx:8
+msgid "Delivered"
+msgstr "Delivered"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:52
+msgid "Deliveries"
+msgstr "Deliveries"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:125
+msgid "Deliveries to the apps"
+msgstr "Deliveries to the apps"
+
+#: src/modules/console/components/Properties/index.tsx:54
+msgid "Direct"
+msgstr "Direct"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:177
+msgid "Display"
+msgstr "Display"
+
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:90
+msgid "Each app decides what a role lets someone do. Omni keeps who holds it."
+msgstr "Each app decides what a role lets someone do. Omni keeps who holds it."
+
+#: src/modules/console/components/Properties/index.tsx:41
+msgid "Email"
+msgstr "Email"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:65
+msgid "Email and password"
+msgstr "Email and password"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:56
+msgid "Events"
+msgstr "Events"
+
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:107
+msgid "Expired"
+msgstr "Expired"
+
+#. placeholder {0}: until(invitation.expiresAt).toLowerCase()
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:107
+msgid "Expires {0}"
+msgstr "Expires {0}"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:55
+msgid "Failed"
+msgstr "Failed"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:149
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:152
+msgid "Filter"
+msgstr "Filter"
+
+#: src/modules/console/components/CommandMenu/index.tsx:95
+msgid "Find someone or type a command…"
+msgstr "Find someone or type a command…"
+
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:73
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:93
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:94
+msgid "Give a role"
+msgstr "Give a role"
+
+#: src/modules/console/components/CommandMenu/index.tsx:55
+msgid "Give a role…"
+msgstr "Give a role…"
+
+#: src/modules/console/components/CommandMenu/index.tsx:56
+msgid "Go to"
+msgstr "Go to"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:180
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:182
+msgid "Group by"
+msgstr "Group by"
+
+#: src/modules/console/hooks/use-places.ts:16
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:34
+#: src/modules/console/pages/admin/Admin/index.tsx:61
+msgid "Home"
+msgstr "Home"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:112
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:183
+msgid "How they sign in"
+msgstr "How they sign in"
+
+#: src/modules/console/components/UserTeams/index.tsx:18
+msgid "In no team"
+msgstr "In no team"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:70
+msgid "In the last {days} days"
+msgstr "In the last {days} days"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:43
+msgid "Instance"
+msgstr "Instance"
+
+#: src/modules/console/hooks/use-places.ts:31
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:72
+msgid "Invitations"
+msgstr "Invitations"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:48
+msgid "Invitations expire after"
+msgstr "Invitations expire after"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:35
+msgid "Its own sign-up"
+msgstr "Its own sign-up"
+
+#: src/modules/console/components/Properties/index.tsx:56
+msgid "Joined"
+msgstr "Joined"
+
+#. placeholder {0}: team.name
+#: src/modules/console/components/Activity/index.tsx:34
+msgid "Joined <0>{0}</0>"
+msgstr "Joined <0>{0}</0>"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:77
+msgid "Legal"
+msgstr "Legal"
+
+#. placeholder {0}: team.name
+#: src/modules/console/components/Activity/index.tsx:33
+msgid "Made <0>{0}</0>"
+msgstr "Made <0>{0}</0>"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:70
+msgid "Mail"
+msgstr "Mail"
+
+#: src/modules/console/components/UserTeams/index.tsx:12
+msgid "Member"
+msgstr "Member"
+
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:81
+msgid "more than one person"
+msgstr "more than one person"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:44
+msgid "Name"
+msgstr "Name"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:183
+msgid "No grouping"
+msgstr "No grouping"
+
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:95
+msgid "No invitation is waiting."
+msgstr "No invitation is waiting."
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:78
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:79
+msgid "No link"
+msgstr "No link"
+
+#: src/modules/console/components/RolePicker/index.tsx:21
+msgid "No role"
+msgstr "No role"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:56
+msgid "No sign-in yet"
+msgstr "No sign-in yet"
+
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:90
+msgid "No teams yet"
+msgstr "No teams yet"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:58
+#: src/modules/console/pages/admin/Admin/index.tsx:126
+msgid "No webhook receiver is set."
+msgstr "No webhook receiver is set."
+
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:103
+msgid "Nobody else to give it to"
+msgstr "Nobody else to give it to"
+
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:77
+msgid "Nobody holds a role yet."
+msgstr "Nobody holds a role yet."
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:244
+msgid "Nobody matches"
+msgstr "Nobody matches"
+
+#: src/modules/console/components/Properties/index.tsx:45
+#: src/modules/console/components/Properties/index.tsx:47
+msgid "None"
+msgstr "None"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:72
+msgid "None expired"
+msgstr "None expired"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:71
+msgid "None: mail is only written to the log"
+msgstr "None: mail is only written to the log"
+
+#: src/modules/console/components/DeliveryState/index.tsx:9
+msgid "Not delivered"
+msgstr "Not delivered"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:41
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:61
+msgid "Not set"
+msgstr "Not set"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:44
+msgid "Not set: every invitation is accepted"
+msgstr "Not set: every invitation is accepted"
+
+#: src/modules/console/components/Properties/index.tsx:43
+#: src/modules/console/components/UserRow/index.tsx:33
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:64
+msgid "Not verified"
+msgstr "Not verified"
+
+#: src/modules/console/components/CommandMenu/index.tsx:101
+msgid "Nothing matches “{text}”"
+msgstr "Nothing matches “{text}”"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:58
+msgid "Nothing sent yet."
+msgstr "Nothing sent yet."
+
+#: src/modules/console/components/Properties/index.tsx:34
+msgid "Nothing yet"
+msgstr "Nothing yet"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:72
+msgid "Off"
+msgstr "Off"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:39
+msgid "Omni reads all of this from its environment. Change it there and restart Omni."
+msgstr "Omni reads all of this from its environment. Change it there and restart Omni."
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:35
+msgid "Omni's sign-up"
+msgstr "Omni's sign-up"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:61
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:72
+msgid "On"
+msgstr "On"
+
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:80
+msgid "Opens this console"
+msgstr "Opens this console"
+
+#: src/modules/console/components/Properties/index.tsx:46
+#: src/modules/console/hooks/use-places.ts:28
+#: src/modules/console/hooks/use-places.ts:30
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:65
+msgid "Organization"
+msgstr "Organization"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:44
+msgid "Organization seats"
+msgstr "Organization seats"
+
+#: src/modules/console/components/UserTeams/index.tsx:10
+msgid "Owner"
+msgstr "Owner"
+
+#: src/modules/console/hooks/use-method-label.ts:10
+msgid "Password"
+msgstr "Password"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:72
+msgid "Pending invitations"
+msgstr "Pending invitations"
+
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:83
+msgid "Personal"
+msgstr "Personal"
+
+#: src/modules/console/components/Properties/index.tsx:45
+msgid "Phone"
+msgstr "Phone"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:79
+msgid "Privacy"
+msgstr "Privacy"
+
+#: src/modules/console/components/DeliveryState/index.tsx:11
+msgid "Queued"
+msgstr "Queued"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:97
+msgid "Recent sign-ups"
+msgstr "Recent sign-ups"
+
+#: src/modules/console/components/DeliveryState/index.tsx:10
+msgid "Retrying"
+msgstr "Retrying"
+
+#: src/modules/console/components/Properties/index.tsx:30
+#: src/modules/console/components/RolePicker/index.tsx:20
+#: src/modules/console/components/RolePicker/index.tsx:24
+#: src/modules/console/hooks/use-places.ts:23
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:74
+msgid "Roles"
+msgstr "Roles"
+
+#: src/modules/console/components/CommandMenu/index.tsx:83
+#: src/modules/console/components/CommandMenu/index.tsx:94
+#: src/modules/console/components/Shell/index.tsx:93
+#: src/modules/console/components/Sidebar/index.tsx:59
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:100
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:140
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:141
+msgid "Search"
+msgstr "Search"
+
+#: src/modules/console/pages/admin/Admin/Roles/index.tsx:100
+msgid "Search by name or email"
+msgstr "Search by name or email"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:97
+msgid "See all"
+msgstr "See all"
+
+#: src/modules/console/components/PersonMenu/index.tsx:63
+#: src/modules/console/components/PersonMenu/index.tsx:65
+msgid "Send a password reset link"
+msgstr "Send a password reset link"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:74
+msgid "Sender"
+msgstr "Sender"
+
+#. placeholder {0}: user.email
+#: src/modules/console/components/PersonMenu/index.tsx:49
+msgid "Sent a reset link to {0}"
+msgstr "Sent a reset link to {0}"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:71
+msgid "Server"
+msgstr "Server"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:47
+msgid "Service key"
+msgstr "Service key"
+
+#: src/modules/console/hooks/use-places.ts:35
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:39
+msgid "Settings"
+msgstr "Settings"
+
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:81
+msgid "Shared"
+msgstr "Shared"
+
+#. placeholder {0}: count(Math.min(PAGE, total - loaded.length))
+#. placeholder {0}: count(Math.min(PAGE, total - users.length))
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:87
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:241
+msgid "Show {0} more"
+msgstr "Show {0} more"
+
+#: src/modules/console/components/Sidebar/index.tsx:77
+#: src/modules/console/components/Sidebar/index.tsx:77
+msgid "Sign out"
+msgstr "Sign out"
+
+#: src/modules/console/components/PersonMenu/index.tsx:67
+#: src/modules/console/components/PersonMenu/index.tsx:69
+msgid "Sign out everywhere"
+msgstr "Sign out everywhere"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:31
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:55
+msgid "Sign-in"
+msgstr "Sign-in"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:45
+msgid "Sign-in site"
+msgstr "Sign-in site"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:70
+msgid "Sign-ups"
+msgstr "Sign-ups"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:77
+msgid "Sign-ups per day"
+msgstr "Sign-ups per day"
+
+#. placeholder {0}: user.fullName
+#: src/modules/console/components/PersonMenu/index.tsx:50
+msgid "Signed {0} out everywhere"
+msgstr "Signed {0} out everywhere"
+
+#: src/modules/console/components/Properties/index.tsx:33
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:157
+msgid "Signs in with"
+msgstr "Signs in with"
+
+#: src/modules/console/components/UserTeams/index.tsx:17
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:71
+msgid "Teams"
+msgstr "Teams"
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:78
+msgid "Terms"
+msgstr "Terms"
+
+#: src/modules/console/utils/console-error.ts:15
+msgid "That didn't work. Try again."
+msgstr "That didn't work. Try again."
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:27
+msgid "The apps that sign in with Omni, and what Omni tells them. Omni reads these from its environment."
+msgstr "The apps that sign in with Omni, and what Omni tells them. Omni reads these from its environment."
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:52
+msgid "The last webhooks Omni sent, with the ones still waiting or failing."
+msgstr "The last webhooks Omni sent, with the ones still waiting or failing."
+
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:83
+msgid "the one Omni makes with each account"
+msgstr "the one Omni makes with each account"
+
+#: src/modules/console/components/NoAccess/index.tsx:11
+msgid "This console is for admins"
+msgstr "This console is for admins"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:65
+msgid "This week"
+msgstr "This week"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:91
+msgid "Today"
+msgstr "Today"
+
+#: src/modules/console/components/NoAccess/index.tsx:15
+msgid "Use another account"
+msgstr "Use another account"
+
+#: src/modules/console/components/CommandMenu/index.tsx:47
+#: src/modules/console/hooks/use-places.ts:17
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:196
+msgid "Users"
+msgstr "Users"
+
+#: src/modules/console/components/Properties/index.tsx:43
+msgid "Verified"
+msgstr "Verified"
+
+#: src/modules/console/pages/admin/Admin/index.tsx:71
+msgid "Verified email"
+msgstr "Verified email"
+
+#: src/modules/console/components/Activity/index.tsx:28
+msgid "Verified their email"
+msgstr "Verified their email"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:54
+#: src/modules/console/pages/admin/Admin/Organization/index.tsx:96
+msgid "Waiting"
+msgstr "Waiting"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:41
+msgid "Webhooks"
+msgstr "Webhooks"
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:40
+msgid "What the product's backend hears from Omni, and the key it asks Omni with."
+msgstr "What the product's backend hears from Omni, and the key it asks Omni with."
+
+#: src/modules/console/pages/admin/Admin/Apps/index.tsx:31
+msgid "Where each app goes back to after someone signs in. They come from APPS."
+msgstr "Where each app goes back to after someone signs in. They come from APPS."
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:70
+msgid "Where reset links and invitations leave from."
+msgstr "Where reset links and invitations leave from."
+
+#: src/modules/console/pages/admin/Admin/Settings/index.tsx:65
+msgid "With a link to reset it"
+msgstr "With a link to reset it"
+
+#: src/modules/console/pages/admin/Admin/Users/index.tsx:63
+msgid "With a role"
+msgstr "With a role"
+
+#: src/modules/console/utils/console-error.ts:8
+msgid "You can't delete your own account from here."
+msgstr "You can't delete your own account from here."
+
+#: src/modules/console/utils/console-error.ts:7
+msgid "You can't take the admin role from yourself."
+msgstr "You can't take the admin role from yourself."
+
+#: src/modules/console/components/NoAccess/index.tsx:12
+msgid "Your account doesn't hold the admin role. Ask an admin to give it to you, or sign in with another account."
+msgstr "Your account doesn't hold the admin role. Ask an admin to give it to you, or sign in with another account."
