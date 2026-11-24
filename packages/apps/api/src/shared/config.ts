@@ -74,6 +74,14 @@ export const config = {
     roles: {
         pattern: /^[a-z][a-z0-9_-]{0,31}$/
     },
+    console: {
+        role: 'admin',
+        maxDays: 183,
+        recentUsers: 9,
+        roleHolders: 100,
+        invitations: 100,
+        deliveries: 20
+    },
     directory: {
         searchLimit: 10,
         maxCensusDays: 366
