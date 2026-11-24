@@ -15,7 +15,7 @@ export default class DeliveryQueue extends BaseQueue<WebhookDelivery>{
             type: 'exponential',
             delay: config.webhooks.backoffMs
         },
-        removeOnComplete: true
+        removeOnComplete: { count: config.webhooks.keepDelivered }
     };
 
     async process(delivery: WebhookDelivery){
