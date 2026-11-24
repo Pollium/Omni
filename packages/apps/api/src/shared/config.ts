@@ -75,6 +75,10 @@ export const config = {
         pattern: /^[a-z][a-z0-9_-]{0,31}$/
     },
     console: {
+        app: {
+            id: 'omni',
+            url: `${webUrl}/admin`
+        },
         role: 'admin',
         maxDays: 183,
         recentUsers: 9,

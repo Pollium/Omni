@@ -10,6 +10,7 @@ export interface InstanceApp{
 export interface Instance{
     name: string;
     apps: InstanceApp[];
+    console: InstanceApp;
     providers: OAuthProvider[];
     termsUrl: string;
     privacyUrl: string;
