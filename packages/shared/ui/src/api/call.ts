@@ -42,12 +42,14 @@ const alova = createAlova({
 export const call = <I, O>(endpoint: Endpoint<I, O>, options: CallOptions<I> = {}) => {
     const config = options.query ? { params: options.query as Record<string, unknown> } : {};
     const body = options.body as RequestBody | undefined;
+    const params = options.params ?? {};
+    const path = endpoint.path.replace(/:(\w+)/g, (_, name: string) => encodeURIComponent(params[name]));
 
     switch(endpoint.method){
-        case 'POST': return alova.Post<O>(endpoint.path, body, config);
-        case 'PATCH': return alova.Patch<O>(endpoint.path, body, config);
-        case 'PUT': return alova.Put<O>(endpoint.path, body, config);
-        case 'DELETE': return alova.Delete<O>(endpoint.path, body, config);
-        default: return alova.Get<O>(endpoint.path, config);
+        case 'POST': return alova.Post<O>(path, body, config);
+        case 'PATCH': return alova.Patch<O>(path, body, config);
+        case 'PUT': return alova.Put<O>(path, body, config);
+        case 'DELETE': return alova.Delete<O>(path, body, config);
+        default: return alova.Get<O>(path, config);
     }
 };
