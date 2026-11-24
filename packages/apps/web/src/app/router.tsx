@@ -5,7 +5,8 @@ import { PageModule } from '@omni/ui/contracts/route';
 import { discoverRoutes } from '@omni/ui/utils/routing/discover-routes';
 import { createBrowserRouter, Navigate } from 'react-router-dom';
 
-const pages = import.meta.glob<PageModule>('/src/modules/*/pages/**/index.tsx');
+const pages = import.meta.glob<PageModule>(['/src/modules/*/pages/**/index.tsx', '!/src/modules/*/pages/admin/**']);
+const consolePages = import.meta.glob<PageModule>('/src/modules/*/pages/admin/**/index.tsx');
 
 export const router = createBrowserRouter([{
     id: INSTANCE_ROUTE,
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([{
     ErrorBoundary: Unavailable,
     children: [
         ...discoverRoutes(pages),
+        {
+            lazy: async () => ({ Component: (await import('@/modules/console/layouts/ConsoleLayout')).default }),
+            children: discoverRoutes(consolePages)
+        },
         {
             path: '*',
             element: <Navigate to='/sign-in' replace />
