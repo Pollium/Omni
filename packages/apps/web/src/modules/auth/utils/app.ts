@@ -4,7 +4,7 @@ import { useSessionStore } from '@omni/ui/store/session';
 import { AuthFlow } from '@/modules/auth/contracts/auth';
 
 export const appOf = (instance: Instance, id: string | null): InstanceApp =>
-    instance.apps.find((app) => app.id === id) ?? instance.apps[0];
+    [...instance.apps, instance.console].find((app) => app.id === id) ?? instance.apps[0];
 
 export const authHref = (path: string, { app, next }: Pick<AuthFlow, 'app' | 'next'>, email?: string): string => {
     const params = new URLSearchParams({ app: app.id });
