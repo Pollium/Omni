@@ -1,6 +1,6 @@
 import { redisOptions } from '../redis/RedisClient';
 import { logger } from '../utils/Logger';
-import { Queue, Worker, Job, RateLimiterOptions, JobsOptions, RepeatOptions } from 'bullmq';
+import { Queue, Worker, Job, JobType, RateLimiterOptions, JobsOptions, RepeatOptions } from 'bullmq';
 
 const WORKER_STAGES = ['active', 'completed', 'failed'] as const;
 
@@ -29,6 +29,14 @@ export default abstract class BaseQueue<T>{
     }
 
     abstract process(data: T): Promise<void>;
+
+    jobs(states: JobType[], limit: number): Promise<Job<T>[]>{
+        return this.#connect().getJobs(states, 0, limit - 1);
+    }
+
+    count(...states: JobType[]): Promise<number>{
+        return this.#connect().getJobCountByTypes(...states);
+    }
 
     protected async schedule(repeat: Partial<RepeatOptions>, data?: T){
         await this.#connect().upsertJobScheduler(this.name, repeat, {

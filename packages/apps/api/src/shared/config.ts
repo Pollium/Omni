@@ -54,6 +54,7 @@ export const config = {
         membershipUrl: optionalEnv('MEMBERSHIP_HOOK_URL') ?? '',
         attempts: 12,
         backoffMs: 5_000,
+        keepDelivered: 200,
         timeoutMs: 10_000
     },
     organization: {
