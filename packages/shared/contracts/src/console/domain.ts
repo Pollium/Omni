@@ -65,6 +65,7 @@ export interface ConsoleOverview{
 export interface ConsoleRole{
     name: string;
     count: number;
+    opensConsole: boolean;
     holders: ConsoleUser[];
 }
 

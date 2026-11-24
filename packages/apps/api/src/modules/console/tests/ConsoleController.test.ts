@@ -226,8 +226,8 @@ describe('ConsoleController', () => {
         const staff = await userSeed.user(['staff', 'billing']);
 
         expect((await request(ctx.app, consoleRoutes.roles, { as: owner.id })).data()).toMatchObject([
-            { name: 'admin', count: 1, holders: [{ id: owner.id }] },
-            { name: 'billing', count: 1, holders: [{ id: staff.id }] },
+            { name: 'admin', count: 1, opensConsole: true, holders: [{ id: owner.id }] },
+            { name: 'billing', count: 1, opensConsole: false, holders: [{ id: staff.id }] },
             { name: 'staff', count: 1, holders: [{ id: staff.id }] }
         ]);
     });

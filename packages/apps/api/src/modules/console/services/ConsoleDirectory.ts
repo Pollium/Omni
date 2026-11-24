@@ -48,6 +48,7 @@ export default class ConsoleDirectory{
         return Promise.all(ranked.map(async (row) => ({
             name: row.role,
             count: Number(row.total),
+            opensConsole: row.role === config.console.role,
             holders: await this.#users.present(await User.find({
                 where: { roles: ArrayContains([row.role]) },
                 order: { createdAt: 'ASC' },
