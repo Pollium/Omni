@@ -7,11 +7,11 @@ msgstr ""
 "X-Generator: @lingui/cli\n"
 "Language: en\n"
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:58
+#: src/modules/auth/components/SignUpForm/index.tsx:60
 msgid "A handle others can find you by"
 msgstr "A handle others can find you by"
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:49
+#: src/modules/auth/components/SignUpForm/index.tsx:51
 msgid "Already have an account? <0>Sign in</0>"
 msgstr "Already have an account? <0>Sign in</0>"
 
@@ -36,19 +36,19 @@ msgstr "Choose a new password"
 msgid "Completing sign-in…"
 msgstr "Completing sign-in…"
 
-#: src/modules/auth/pages/guest/SignIn/index.tsx:88
+#: src/modules/auth/pages/guest/SignIn/index.tsx:93
 msgid "Continue"
 msgstr "Continue"
 
-#: src/modules/auth/pages/guest/SignIn/index.tsx:75
+#: src/modules/auth/pages/guest/SignIn/index.tsx:80
 msgid "Continue with GitHub"
 msgstr "Continue with GitHub"
 
-#: src/modules/auth/pages/guest/SignIn/index.tsx:74
+#: src/modules/auth/pages/guest/SignIn/index.tsx:79
 msgid "Continue with Google"
 msgstr "Continue with Google"
 
-#: src/modules/auth/pages/guest/SignIn/index.tsx:76
+#: src/modules/auth/pages/guest/SignIn/index.tsx:81
 msgid "Continue with Microsoft"
 msgstr "Continue with Microsoft"
 
@@ -56,7 +56,7 @@ msgstr "Continue with Microsoft"
 msgid "Continuing"
 msgstr "Continuing"
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:30
+#: src/modules/auth/components/SignUpForm/index.tsx:32
 msgid "Could not create the account. Try again."
 msgstr "Could not create the account. Try again."
 
@@ -73,15 +73,15 @@ msgstr "Could not send the reset link."
 msgid "Could not sign in. Try again."
 msgstr "Could not sign in. Try again."
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:69
+#: src/modules/auth/components/SignUpForm/index.tsx:71
 msgid "Create account"
 msgstr "Create account"
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:48
+#: src/modules/auth/components/SignUpForm/index.tsx:50
 msgid "Create your {name} account"
 msgstr "Create your {name} account"
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:64
+#: src/modules/auth/components/SignUpForm/index.tsx:66
 msgid "Eight characters or more"
 msgstr "Eight characters or more"
 
@@ -89,12 +89,12 @@ msgstr "Eight characters or more"
 msgid "Eight characters or more. Saving it signs you out on your other devices."
 msgstr "Eight characters or more. Saving it signs you out on your other devices."
 
+#: src/modules/auth/components/SignUpForm/index.tsx:58
+#: src/modules/auth/components/SignUpForm/index.tsx:58
 #: src/modules/auth/pages/guest/ForgotPassword/index.tsx:61
 #: src/modules/auth/pages/guest/ForgotPassword/index.tsx:61
-#: src/modules/auth/pages/guest/SignIn/index.tsx:81
-#: src/modules/auth/pages/guest/SignIn/index.tsx:81
-#: src/modules/auth/pages/guest/SignUp/index.tsx:56
-#: src/modules/auth/pages/guest/SignUp/index.tsx:56
+#: src/modules/auth/pages/guest/SignIn/index.tsx:86
+#: src/modules/auth/pages/guest/SignIn/index.tsx:86
 msgid "Email"
 msgstr "Email"
 
@@ -114,7 +114,7 @@ msgstr "Loading"
 msgid "Missing authorization code."
 msgstr "Missing authorization code."
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:57
+#: src/modules/auth/components/SignUpForm/index.tsx:59
 msgid "Name"
 msgstr "Name"
 
@@ -123,13 +123,13 @@ msgstr "Name"
 msgid "New password"
 msgstr "New password"
 
-#: src/modules/auth/pages/guest/SignIn/index.tsx:72
+#: src/modules/auth/pages/guest/SignIn/index.tsx:77
 msgid "or"
 msgstr "or"
 
 #: src/modules/auth/components/SignInPassword/index.tsx:39
 #: src/modules/auth/components/SignInPassword/index.tsx:51
-#: src/modules/auth/pages/guest/SignUp/index.tsx:62
+#: src/modules/auth/components/SignUpForm/index.tsx:64
 msgid "Password"
 msgstr "Password"
 
@@ -166,7 +166,7 @@ msgstr "Save and sign in"
 msgid "Send link"
 msgstr "Send link"
 
-#: src/modules/auth/pages/guest/SignIn/index.tsx:88
+#: src/modules/auth/pages/guest/SignIn/index.tsx:93
 msgid "Sign in"
 msgstr "Sign in"
 
@@ -210,7 +210,7 @@ msgstr "Too many attempts. Wait a minute and try again."
 msgid "Try again"
 msgstr "Try again"
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:58
+#: src/modules/auth/components/SignUpForm/index.tsx:60
 msgid "Username"
 msgstr "Username"
 
@@ -230,6 +230,6 @@ msgstr "We will email you a link to choose a new one."
 msgid "Wrong email or password."
 msgstr "Wrong email or password."
 
-#: src/modules/auth/pages/guest/SignUp/index.tsx:57
+#: src/modules/auth/components/SignUpForm/index.tsx:59
 msgid "Your name"
 msgstr "Your name"
